@@ -4013,6 +4013,11 @@ h6 {
 .hero.-type-7 .hero__slider .swiper-slide {
   height: 100vh !important;
 }
+.hero.-type-9 .hero__slider .swiper-slide {
+  /* height: 100vh !important; */
+  position: relative;
+}
+
 
 .hero.-type-7 .hero__nav {
   position: absolute;
@@ -4120,7 +4125,7 @@ h6 {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: -1;
+  /* z-index: -1; */
   /* padding: 30px; */
   padding-bottom: 0;
 }
@@ -4154,8 +4159,20 @@ h6 {
   -o-object-fit: cover;
   object-fit: cover;
   /* border-radius: 12px; */
-}
+  /* position: relative; */
 
+  /* z-index: -1; */
+}
+.hero__bg::after {
+  position: absolute !important;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  /* z-index: -9; */
+}
 @media (max-width: 991px) {
   .hero.-type-9 .hero__bg img {
     border-radius: 0;
@@ -14124,6 +14141,11 @@ button.gm-ui-hover-effect::after {
   position: relative;
 }
 
+.country .sub-title {
+  text-decoration: underline;
+
+}
+
 .country .country-item::after {
   position: absolute;
   content: "";
@@ -14196,8 +14218,10 @@ button.gm-ui-hover-effect::after {
 
 .country-item .rounded {
   height: 400px;
-  width: 300px;
+  
 }
+
+
 
 /*** Country End ***/
 
@@ -14236,7 +14260,7 @@ button.gm-ui-hover-effect::after {
   background-color: #96c570;
 }
 /*** location ***/
-.form {
+/* .form {
   background-color: ;
  
-}
+} */
