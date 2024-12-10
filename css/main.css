@@ -13970,7 +13970,7 @@ button.gm-ui-hover-effect::after {
   transition: all 0.3s ease;
 }
 .counter-facts .counter h3  { 
-  color: var(--bs-primary);
+  color: #003A66;
   font-size: 17px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -14231,3 +14231,12 @@ button.gm-ui-hover-effect::after {
 }
 /*** copyright end ***/
 
+/*** location ***/
+.location {
+  background-color: #96c570;
+}
+/*** location ***/
+.form {
+  background-color: ;
+ 
+}
