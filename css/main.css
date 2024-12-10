@@ -3138,7 +3138,8 @@ h6 {
 }
 .header__logo img {
   /* height: 180px; */
-  max-width: 280px;
+  width: 160px;
+  margin-top: 20px;
 }
 .header.-type-10 .header__right {
   display: flex;
