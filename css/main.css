@@ -2565,6 +2565,7 @@ h6 {
 .header.-type-3 .header__logo {
   display: flex;
   align-items: center;
+ 
 }
 
 .header.-type-3 .header__right {
@@ -14221,3 +14222,11 @@ button.gm-ui-hover-effect::after {
   color: #E02454;
 }
 /*** Footer End ***/
+
+/*** copyright Start ***/
+.copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: #E02454;
+}
+/*** copyright end ***/
+
