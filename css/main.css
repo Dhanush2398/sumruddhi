@@ -3058,12 +3058,12 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 88px;
+  height: 120px;
 }
 
 @media (max-width: 767px) {
   .header.-type-9 .header__container {
-    height: 57px;
+    height: 75px;
   }
 }
 
@@ -3137,7 +3137,7 @@ h6 {
   align-items: center;
 }
 .header__logo img {
-   height: 105px; 
+   height: 115px; 
   width: 115px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -3153,7 +3153,7 @@ h6 {
     display: none;
   }
   .header__logo img {
-    height: 70px; 
+    height: 90px; 
     width: 95px;
     padding-top: 10px;
   padding-bottom: 10px;
