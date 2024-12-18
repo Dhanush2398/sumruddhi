@@ -3138,7 +3138,7 @@ h6 {
 }
 .header__logo img {
    height: 105px; 
-  width: auto;
+  width: 115px;
   padding-top: 10px;
   padding-bottom: 10px;
 
@@ -3154,7 +3154,7 @@ h6 {
   }
   .header__logo img {
     height: 70px; 
-    width: auto;
+    width: 95px;
     padding-top: 10px;
   padding-bottom: 10px;
   }
