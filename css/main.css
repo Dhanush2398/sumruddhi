@@ -3137,8 +3137,8 @@ h6 {
   align-items: center;
 }
 .header__logo img {
-   height: 80px; 
-  width: 80px;
+   height: 90px; 
+  width: 100px;
 
 }
 .header.-type-10 .header__right {
@@ -3151,8 +3151,8 @@ h6 {
     display: none;
   }
   .header__logo img {
-    height: 50px; 
-    max-width: 60px;
+    height: 58px; 
+    max-width: 70px;
   }
 }
 
