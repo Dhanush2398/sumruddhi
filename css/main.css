@@ -14095,6 +14095,10 @@ button.gm-ui-hover-effect::after {
   background-color: #003A66;
   border-radius: 10px;
 }
+
+.service-img{
+  height: 232px;
+}
 /*** Service End ***/
 
 /*** to do Start ***/
