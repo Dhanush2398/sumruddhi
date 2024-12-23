@@ -14254,6 +14254,9 @@ button.gm-ui-hover-effect::after {
 .footer .h4{
   color: #E02454;
 }
+.footer-item h5{
+  color: white;
+}
 /*** Footer End ***/
 
 /*** copyright Start ***/
