@@ -14111,8 +14111,8 @@ button.gm-ui-hover-effect::after {
   box-shadow: 0 0 45px rgba(0, 0, 0, 0.2);
   background: var(--bs-light);
   transition: 0.5s;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
  .todo .todo-item:hover {
@@ -14278,3 +14278,7 @@ button.gm-ui-hover-effect::after {
   background-color: ;
  
 } */
+.footer h5{
+ font-size: medium;
+ font-weight: 300;
+}
