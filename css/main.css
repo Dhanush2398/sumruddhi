@@ -7029,6 +7029,7 @@ h6 {
   justify-content: center;
   align-items: center;
   background-color: var(--color-light-1);
+
 }
 
 .menu__content {
@@ -10669,7 +10670,7 @@ h6 {
 }
 
 .text-black {
-  color: var(--color-black);
+  color: white;
 }
 
 .text-border {
