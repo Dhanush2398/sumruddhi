@@ -10,14 +10,17 @@ body {
   background-color: #000 !important;
   color: #fff !important;
   padding: 0px 0px;
+  
 }
 
 #google_translate_element {
+  padding-top: 10px;
   z-index: 9991 !important;
   position: fixed;
   right: 40px;
   top: 50px;
   color: #fff !important;
+ 
 }
 .goog-te-gadget-simple {
   border-left: 1px solid #9b9b9b !important;
@@ -3154,7 +3157,7 @@ h6 {
   }
   .header__logo img {
     height: 90px; 
-    width: 95px;
+    width:80px;
     padding-top: 10px;
   padding-bottom: 10px;
   }
