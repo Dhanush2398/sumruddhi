@@ -10665,7 +10665,7 @@ h6 {
 }
 
 .text-white {
-  color: var(--color-white);
+  color: white;
 }
 
 .text-black {
