@@ -17,7 +17,7 @@ body {
   padding-top: 10px;
   z-index: 9991 !important;
   position: fixed;
-  right: 40px;
+  right: 50px;
   top: 50px;
   color: #fff !important;
  
@@ -14044,9 +14044,8 @@ button.gm-ui-hover-effect::after {
   background:#003A66;
   opacity: 0;
   transition: 0.5s;
- 
 }
-
+ 
 
 
 .service .service-item:hover .service-inner .service-title .service-content {
