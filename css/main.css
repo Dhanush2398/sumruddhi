@@ -14274,7 +14274,7 @@ button.gm-ui-hover-effect::after {
 
 /*** location ***/
 .location {
-  background-color: #96c570;
+  background-color: #E02454;
 }
 /*** location ***/
 /* .form {
@@ -14284,4 +14284,14 @@ button.gm-ui-hover-effect::after {
 .footer h5{
  font-size: medium;
  font-weight: 300;
+}
+
+.location .location-text{
+  font-size: larger;
+  color: white;
+  font-weight: 500;
+}
+
+.dubai img {
+ height: 100px;
 }
