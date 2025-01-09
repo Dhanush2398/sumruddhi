@@ -14385,7 +14385,7 @@ button.gm-ui-hover-effect::after {
   transition: background-color 0.3s ease;
 }
 
-.btn:hover {
+.btn1:hover {
   background-color: #ff5722;
 }
 
