@@ -2018,4 +2018,9 @@
       });
     }
   };
-})();
+  document.querySelector('.terms-btn').addEventListener('click', () => {
+    const termsContent = document.querySelector('.terms-content');
+    termsContent.style.display = termsContent.style.display === 'block' ? 'none' : 'block';
+});
+})
+();

@@ -14424,3 +14424,77 @@ button.gm-ui-hover-effect::after {
     font-size: 14px;
   }
 }
+
+.terms-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 20px;
+  position: relative;
+}
+
+.terms-btn {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.terms-btn:hover {
+  background-color: #00b39b;
+}
+
+.terms-content {
+  display: none;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50px;
+  right: 0;
+  z-index: 10;
+}
+
+.terms-content h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.terms-content p {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .terms-container {
+      justify-content: end;
+      position: relative;
+      right: 10px;
+     
+  }
+
+  .terms-content {
+      width: 90%;
+      right: auto;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  
+  .terms-btn {
+      font-size: 14px;
+      padding: 8px 16px;
+      height: 40px;
+     
+  }
+}
