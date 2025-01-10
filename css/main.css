@@ -14498,3 +14498,47 @@ button.gm-ui-hover-effect::after {
      
   }
 }
+
+.tourCard__explore-btn {
+  background-color: #ff5722; 
+  color: #ffffff; 
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tourCard__explore-btn:hover {
+  background-color: #e64a19; 
+}
+
+.tourCard__explore-btn:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.explore-btn-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.explore-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e64a19; /* Customize the button color */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: #e64a19; /* Change color on hover */
+  transform: scale(1.1); 
+  color: #000;
+}
